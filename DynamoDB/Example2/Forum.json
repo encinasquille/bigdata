@@ -1,0 +1,23 @@
+{
+    "Forum": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Nome": {"S":"Gatos"},
+                    "Categoria": {"S":"Felinos"},
+                    "Threads": {"N":"2"},
+                    "Mensagem": {"N":"4"},
+                    "Vistas": {"N":"1000"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Nome": {"S":"Cachorros"},
+                    "Categoria": {"S":"Caninos"}
+                }
+            }
+        }
+    ]
+}
